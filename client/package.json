@@ -16,4 +16,6 @@
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.1"
   }
+  "homepage": "https://<your-username>.github.io/Task-Manager"
+
 }
