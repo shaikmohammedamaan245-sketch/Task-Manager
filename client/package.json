@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -15,7 +17,6 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.1"
-  }
-  "homepage": "https://<your-username>.github.io/Task-Manager"
-
+  },
+  "homepage": "https://shaikmohammedamaan245-sketch.github.io/Task-Manager"
 }
