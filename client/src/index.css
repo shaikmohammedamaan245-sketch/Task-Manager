@@ -1,0 +1,14 @@
+
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #0b1020; color: #eee; }
+a { color: inherit; }
+.container { max-width: 960px; margin: 0 auto; padding: 2rem; }
+.card { background: #121936; padding: 1rem; margin: 1rem 0; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.2); }
+input, button, textarea, select { padding: .6rem .8rem; border-radius: 10px; border: 1px solid #263157; background: #0f1630; color: #eee; }
+button { cursor: pointer; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.badge { padding: .2rem .6rem; border-radius: 999px; background:#24325e; font-size: .8rem; }
+.task { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.task-title { font-weight: 600; }
+.actions { display:flex; gap:8px; }
+h1,h2 { margin: 0 0 1rem; }
